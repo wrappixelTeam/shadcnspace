@@ -254,6 +254,6 @@ Join the shadcnspace community to discuss the library, ask questions, and share 
 - [**Templates**](https://shadcnspace.com/templates)
 - [**Dashboard Layout**](http://shadcnspace.com/dashbaord)
 - [**Free Figma UI Kits**](http://shadcnspace.com/#figma)
-- Issues & Feature Requests - Use GitHub Issues
-- Roadmap - http://shadcnspace.com/roadmap
+- [**Issues & Feature Requests**](https://github.com/shadcnspace/shadcnspace/issues)
+- [**Roadmap**](https://github.com/orgs/shadcnspace/projects/1)
 
