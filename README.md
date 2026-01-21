@@ -5,8 +5,8 @@
 <a href="https://shadcnspace.com">
   <img
     alt="shadcnspace banner"
-    width="800"
-    src="https://shadcnspace.com/images/og-image.png"
+    width="1000"
+    src="https://images.shadcnspace.com/assets/github-image.webp"
   >
 </a>
 <br/><br/>
@@ -201,37 +201,51 @@ shadcnspace provides an open-source collection of copy-and-paste Shadcn Blocks d
 ### Blocks Examples
 
 <table>
+
   <tr>
+    <td width="33.3333%" align="center">
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/hero-section">
+        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/hero-section.webp" />
+    </a>
+    </td>
+    <td width="33.3333%" align="center">
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/team-section">
+        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/team-section.webp" />
+        </a>
+    </td>
+    <td width="33.3333%" align="center">
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/cta-section">
+        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/cta-section.webp" />
+        </a>
+    </td>
+  </tr>
+    <tr>
     <td width="33.3333%" align="center">Hero Section</td>
     <td width="33.3333%" align="center">Team Section</td>
     <td width="33.3333%" align="center">CTA Section</td>
   </tr>
+  
   <tr>
     <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/hero-section.webp" />
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/about-us-section">
+        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/about-us-section.webp">
+        </a>
     </td>
     <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/team-section.webp" />
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/pricing-section">
+        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/pricing-section.webp">
+        </a>
     </td>
     <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/cta-section.webp" />
+    <a href="https://myshadcnspace.vercel.app/blocks/marketing/testimonials-section">
+        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/testimonial-section.webp">
+        </a>
     </td>
   </tr>
   <tr>
     <td width="33.3333%" align="center">About Us Section</td>
     <td width="33.3333%" align="center">Pricing Section</td>
     <td width="33.3333%" align="center">Testimonials Section</td>
-  </tr>
-  <tr>
-    <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/about-us-section.webp">
-    </td>
-    <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/pricing-section.webp">
-    </td>
-    <td width="33.3333%" align="center">
-        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/testimonial-section.webp">
-    </td>
   </tr>
 </table>
 
