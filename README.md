@@ -1,12 +1,12 @@
 
 # Free Shadcn UI Blocks and Components
-[**Shadcn Space**](https://myshadcnspace.vercel.app) is an open-source shadcn/ui system built on Base UI primitives for modern React applications. It helps teams ship modern React apps faster through a curated collection of production-ready components, reusable blocks, templates, and dashboard layouts.
+[**Shadcn Space**](https://shadcnspace.com) is an open-source shadcn/ui system built on Base UI primitives for modern React applications. It helps teams ship modern React apps faster through a curated collection of production-ready components, reusable blocks, templates, and dashboard layouts.
 
-<a href="https://myshadcnspace.vercel.app">
+<a href="https://shadcnspace.com">
   <img
     alt="shadcnspace banner"
     width="800"
-    src="https://myshadcnspace.vercel.app/images/og-image.png"
+    src="https://shadcnspace.com/images/og-image.png"
   >
 </a>
 <br/><br/>
@@ -75,17 +75,42 @@ Layouts designed for long-term use:
 
 Layouts are cohesive, extensible, and suitable for production systems.
 
+## Installation and Quick Start
 
-### Not a library — a component distribution
+You can add components directly to the project and keep full ownership of the code.
+
+### Using the CLI
+Install components, blocks, or templates using a CLI-based workflow that integrates with existing shadcn/ui projects.
+
+```bash
+npx shadcn@latest add @shadcn-space/button
+```
+
+This command adds the component source code directly to the project. You can edit, extend, or restructure it as needed.
+
+### Manual Usage
+
+You can also copy components, blocks, or layouts directly from this repository.
+- No build step required
+- All code is transparent and editable
+- Follows the docs.
+
+This approach works well for teams that prefer manual control or selective adoption.
+
+### Explore more from documentation
+- [**How to use Shadcn Cli**](https://shadcnspace.com/docs/getting-started/how-to-use-shadcn-cli) 
+
+
+## Not a library — a component distribution
 
 Following the core philosophy of shadcn, **shadcnspace is not an “install-from-npm” UI library**.
 
 Instead, it’s an **open-source distribution of components**:
 
-- 📋 Copy the source code directly
-- 🎨 Modify styles and variants freely
-- 🧠 Adjust logic to fit your app
-- 🔧 Integrate seamlessly with your existing stack
+- Copy the source code directly
+- Modify styles and variants freely
+- Adjust logic to fit your app
+- ntegrate seamlessly with your existing stack
 
 There are **no hidden abstractions or runtime dependencies**.  
 The code is yours to own, adapt, and evolve.
@@ -121,10 +146,10 @@ With Shadcnspace, you’re not just copying components — you’re adopting a *
 
 
 Explore the collection:  
-- [Components](https://myshadcnspace.vercel.app/components)  
-- [Blocks](https://myshadcnspace.vercel.app/blocks)  
-- [Templates](https://myshadcnspace.vercel.app/templates)  
-- [MCP Server](https://myshadcnspace.vercel.app/docs/getting-started/mcp-server-docs)
+- [Components](https://shadcnspace.com/components)  
+- [Blocks](https://shadcnspace.com/blocks)  
+- [Templates](https://shadcnspace.com/templates)  
+- [MCP Server](https://shadcnspace.com/docs/getting-started/mcp-server-docs)
 
 With these features, shadcnspace doesn’t just provide components — it **streamlines your workflow, reduces repetitive work, and helps you ship faster with confidence**.
 
@@ -166,41 +191,51 @@ No wrappers, no hidden abstractions, and no vendor lock-in. All code lives in th
 
 ## Documentation 
 
-For comprehensive documentation, please visit [shadcnspace.com](https://myshadcnspace.vercel.app).
+For comprehensive documentation, please visit [shadcnspace.com](https://shadcnspace.com).
 
-## Available Components 
+## Available Blocks 
 
 shadcnspace provides an open-source collection of copy-and-paste Shadcn Components designed to accelerate your project development. Below is a summary of the available component categories:
 
 
-### Component Examples
+### Blocks Examples
 
 <table>
   <tr>
-    <td width="33.3333%">Avatar</td>
-    <td width="33.3333%">Accordion</td>
-    <td width="33.3333%">Tooltip</td>
+    <td width="33.3333%" align="center">Hero Section</td>
+    <td width="33.3333%" align="center">Team Section</td>
+    <td width="33.3333%" align="center">CTA Section</td>
   </tr>
   <tr>
     <td width="33.3333%" align="center">
-      <a href="https://myshadcnspace.vercel.app/components/avatar">
-        <img alt="Shadcnspace Avatar" src="">
-      </a>
+        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/hero-section.webp" />
     </td>
     <td width="33.3333%" align="center">
-      <a href="https://myshadcnspace.vercel.app/components/accordion">
-        <img alt="Shadcnspace Accordion" src="">
-      </a>
+        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/team-section.webp" />
     </td>
     <td width="33.3333%" align="center">
-      <a href="https://myshadcnspace.vercel.app/components/tooltip">
-        <img alt="Shadcnspace Tooltip" src="">
-      </a>
+        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/cta-section.webp" />
+    </td>
+  </tr>
+  <tr>
+    <td width="33.3333%" align="center">About Us Section</td>
+    <td width="33.3333%" align="center">Pricing Section</td>
+    <td width="33.3333%" align="center">Testimonials Section</td>
+  </tr>
+  <tr>
+    <td width="33.3333%" align="center">
+        <img alt="Shadcnspace Avatar" src="https://images.shadcnspace.com/assets/blocks-images/marketing/about-us-section.webp">
+    </td>
+    <td width="33.3333%" align="center">
+        <img alt="Shadcnspace Accordion" src="https://images.shadcnspace.com/assets/blocks-images/marketing/pricing-section.webp">
+    </td>
+    <td width="33.3333%" align="center">
+        <img alt="Shadcnspace Tooltip" src="https://images.shadcnspace.com/assets/blocks-images/marketing/testimonial-section.webp">
     </td>
   </tr>
 </table>
 
-[Explore all components](https://myshadcnspace.vercel.app/components)
+[Explore all blocks](https://shadcnspace.com/blocks)
 
 
 ## Community 

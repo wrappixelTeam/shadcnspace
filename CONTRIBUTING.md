@@ -1,4 +1,4 @@
-# Contributing to shadcnspace 💡
+# Contributing to shadcnspace
 
 Thank you for considering contributing to **shadcnspace**! We welcome contributions of all kinds: bug fixes, new components, blocks, templates, documentation improvements, and enhancements to our MCP server integration.  
 
