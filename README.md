@@ -1,3 +1,7 @@
+
+# Free Shadcn UI Blocks and Components
+[**Shadcn Space**](https://myshadcnspace.vercel.app) is an open-source shadcn/ui system built on Base UI primitives for modern React applications. It helps teams ship modern React apps faster through a curated collection of production-ready components, reusable blocks, templates, and dashboard layouts.
+
 <a href="https://myshadcnspace.vercel.app">
   <img
     alt="shadcnspace banner"
@@ -7,9 +11,9 @@
 </a>
 <br/><br/>
 
-[**shadcnspace**](https://myshadcnspace.vercel.app) is an open-source collection of **production-ready shadcn/ui components, blocks, and layouts** — built to help developers design, customize, and ship faster.
+Built with consistent design patterns, predictable component behavior, and accessibility-first foundations. Shadcn Space delivers clean user interfaces with strong performance and long-term maintainability.
+Build websites, dashboards, SaaS products, admin panels, landing pages, and internal tools without relying on generic shadcn/ui components or rebuilding common UI patterns. Shadcn Space provides a structured, scalable UI foundation while maintaining full code ownership.
 
-It focuses on **real-world UI patterns**, clean code, and seamless integration with modern React & Next.js projects. ⚡
 
 <p>
   <a href="/LICENSE">
@@ -20,44 +24,52 @@ It focuses on **real-world UI patterns**, clean code, and seamless integration w
   </a>
 </p>
 
-### ✨ What shadcnspace offers
+## Table of Contents 
 
-- 🧩 **Copy-paste ready** shadcn/ui components & blocks  
-- 🎨 Consistent design system built on Tailwind & Radix  
-- ⚙️ Easy customization with tokens & variants  
-- 🚀 Optimized for Next.js App Router  
-- 🛠️ MCP-ready architecture for AI tooling & workflows  
-
-
-Built with ❤️ to support the **shadcn & open-source ecosystem**  
-and to help teams move from idea → UI → production faster.
-
-## Table of Contents 📋
-
-- [Table of Contents 📋](#table-of-contents-)
-- [Overview 🌏](#overview-)
+- [Table of Contents ](#table-of-contents-)
+- [What's Included ](#what's-included-)
   - [Not a standard library, but a distribution of components](#not-a-standard-library-but-a-distribution-of-components)
-- [Why should I use shadcnspace? 💡](#why-should-i-use-shadcnspace-)
-- [This is where shadcnspace shines ✨](#this-is-where-shadcnspace-shines-)
-- [Features ✨](#features-)
-- [Documentation 📚](#documentation-)
-- [Available Components 🧩](#available-components-)
+- [Why should I use shadcnspace?](#why-should-i-use-shadcnspace-)
+- [This is where shadcnspace shines](#this-is-where-shadcnspace-shines-)
+- [Features](#features-)
+- [Documentation](#documentation-)
+- [Available Components](#available-components-)
   - [Component Examples](#component-examples)
-- [Community 🤝](#community-)
-- [Credits 🤘](#credits-)
+- [Community](#community-)
 - [License ©](#license-)
-- [Useful Links 🎁](#useful-links-)
+- [Useful Links](#useful-links-)
 
 ---
 
-## Overview
+## What’s Included
 
-**shadcnspace is not a traditional component library or a replacement for shadcn/ui.**   
-Instead, it’s a curated collection of **production-ready components, blocks, and layouts** with flexible variants.
+Shadcn Space provides a complete, system-level UI foundation built on shadcn/ui and Base UI.
 
-You can **preview, customize, and copy-paste** everything directly into your project — no lock-in, no abstractions, no black boxes.
+### UI Components
 
-Built on top of the solid foundation of **shadcn/ui**, shadcnspace extends it with thoughtfully designed components and real-world UI blocks. The goal is simple: **help you build faster without sacrificing control or code quality**.
+Production-ready components designed for real application logic:
+
+- Buttons, badges, alerts
+
+All components follow consistent APIs, predictable behavior, and accessible defaults.
+
+### UI Blocks
+
+Composable blocks built from core components:
+
+- Hero and feature sections
+- Dashboard sections and widgets
+
+Blocks are structured for reuse across pages and projects.
+
+### Templates and Dashboard Layouts
+
+Layouts designed for long-term use:
+
+- Dashboards UI Kits
+- Landing pages
+
+Layouts are cohesive, extensible, and suitable for production systems.
 
 
 ### Not a library — a component distribution
@@ -77,21 +89,32 @@ The code is yours to own, adapt, and evolve.
 This **open-code approach** gives you full confidence and flexibility — so your UI scales with your product, not against it.
 
 
-## Why should I use shadcnspace? 🤔
+## Why should I use shadcnspace ? 
 
 shadcnspace builds on the core philosophy of shadcn/ui while focusing on what teams often need next: **more ready-to-use variants, richer examples, and complete UI blocks**. It provides a growing collection of components, blocks, and layouts designed around real product use cases, helping developers move beyond primitives and assemble interfaces faster.
 
 While preserving the copy-and-paste, open-code approach, shadcnspace aims to offer a **more guided and practical experience**. By showcasing multiple variants, sensible defaults, and pre-built patterns, it reduces the cognitive load of starting from scratch — without taking away flexibility or control over the code.
 
 
-## This is where shadcnspace shines ✨
+## This is where shadcnspace shines
 
-shadcnspace takes the core strengths of shadcn/ui and supercharges them with a **developer-first experience**. Here’s what makes it stand out:
+Shadcnspace is built for **real production use**, not just demos or isolated components. Every component, block, and layout follows **shadcn/ui conventions** and is grounded in **Base UI primitives**, ensuring predictable behavior, accessibility, and long-term maintainability.
 
-- **Components** – Browse a rich collection of UI components, from buttons and forms to navigation menus and cards, ready to copy, customize, and use in your projects.  
-- **Blocks** – Pre-built UI patterns and sections that combine multiple components into functional layouts, helping you assemble pages faster.  
-- **Templates** – Full-page or partial templates to kickstart projects with consistent design and structure, saving you setup time.  
-- **MCP Server** – Connect shadcnspace to an MCP server to automate workflows, fetch component details, and integrate AI-assisted tooling directly into your development process.  
+- **Production-ready by default** – Components, blocks, and layouts are designed for real applications, not examples. Clean structure, sensible defaults, and scalable patterns come first.
+- **Extraordinary design quality** – Clean layouts, balanced spacing, and consistent visual structure across all components, blocks, and templates.
+- **System-first architecture** – Components, blocks, templates, and dashboards are designed to work together with shared structure and conventions.
+- **Built on shadcn/ui + Base UI** – Base UI primitives provide robust interaction logic, accessibility, and predictable behavior.
+- **100+ free components** – Tabs, Tooltip, Button, Accordion, Badge, Card, Calendar, Checkbox, Apple Dock, authentication flows, and more — all designed for real products.
+- **51+ reusable UI blocks & layouts** – Pre-built sections for marketing pages, applications, and dashboards, optimized for reuse.
+- **3+ templates & dashboard UI kits** – Cohesive layouts for SaaS products, admin panels, onboarding flows, and internal tools.
+- **Tailwind CSS with CVA** – Utility-first styling with controlled variants using Class Variance Authority.
+- **CLI-friendly workflow** – Add components and blocks using a shadcn-style CLI with full code ownership.
+- **Motion support** – Framer Motion variants that enhance interaction without affecting structure or accessibility.
+- **No runtime dependencies** – No wrappers, no hidden abstractions, no vendor lock-in. All code lives inside your project.
+- **MCP Server support** – Integrate Shadcnspace with an MCP server to enable AI-assisted workflows, component discovery, and automation.
+
+With Shadcnspace, you’re not just copying components — you’re adopting a **cohesive, production-ready UI system** that scales with your product and your team.
+
 
 Explore the collection:  
 - [Components](https://myshadcnspace.vercel.app/components)  
@@ -102,36 +125,46 @@ Explore the collection:
 With these features, shadcnspace doesn’t just provide components — it **streamlines your workflow, reduces repetitive work, and helps you ship faster with confidence**.
 
 
-## Features 🚀
+## Features 
 
-shadcnspace is designed to make building UIs faster, easier, and more flexible. Here’s what you get:
+Built for **real production use**, every component, block, and layout follows shadcn/ui conventions and Base UI foundations.
 
-- **Live Component Previews** :
-Instantly preview how each component looks and behaves in real time, so you can see changes before adding code to your project.
+- **Extraordinary design** :
+Clean layouts, balanced spacing, and consistent visual structure across all components, blocks, and templates.
 
-- **One-Click Code Snippets** :
-Copy production-ready component code with a single click and drop it directly into your app — no extra setup required.
 
-- **Wide Variety of Components** :
-Explore a rich library of UI elements: buttons, forms, modals, navigation menus, cards, tables, and full pre-built blocks.
+- **System-first architecture** :
+Components, blocks, templates, and dashboards are designed to work together with shared structure and conventions.
 
-- **Developer-Friendly Interface** :
-A clean, intuitive, and fast interface helps you find the perfect component without distractions, improving your workflow efficiency.
+- **Built on shadcn/ui and Base UI** :
+Base UI primitives ensure better interaction logic, accessibility, and predictable behavior.
 
-- **MCP Server Integration** :
-Connect shadcnspace to an MCP server to fetch component details, automate tasks, and integrate AI-assisted tooling directly into your development process.
+- **100+ Free components** :
+Tabs, Tooltip, Button, Accordion, Badge, Card, Calendar, Checkbox, Apple Dock, Authentication flows designed for real applications.
 
-- **Flexible & Customizable** :
-Adjust component logic, styling, and variants freely. Fully open-code approach means you can modify or extend everything to match your project’s needs.
+- **51+ Reusable UI blocks and layout** :
+Pre-built sections for marketing pages, applications, and dashboards, optimized for reuse.
 
-- **Tailwind + Shadcn UI Ready** :
-Built on top of shadcn/ui and Tailwind CSS, ensuring consistency, accessibility, and easy integration with modern React & Next.js projects.
+- **3+ Templates and dashboard UI kits** :
+Cohesive layouts for SaaS products, admin panels, onboarding flows, and internal tools.
 
-## Documentation 📚
+- **Tailwind CSS with CVA** :
+Utility-first styling with controlled variants using Class Variance Authority.
+
+- **CLI-friendly workflow** :
+Add components and blocks using a shadcn-style CLI. Full code ownership by default.
+
+- **Motion support** :
+Framer Motion variants that enhance interaction without affecting structure or accessibility.
+
+- **No runtime dependencies** :
+No wrappers, no hidden abstractions, and no vendor lock-in. All code lives in the project.
+
+## Documentation 
 
 For comprehensive documentation, please visit [shadcnspace.com](https://myshadcnspace.vercel.app).
 
-## Available Components 🧩
+## Available Components 
 
 shadcnspace provides an open-source collection of copy-and-paste Shadcn Components designed to accelerate your project development. Below is a summary of the available component categories:
 
@@ -166,17 +199,26 @@ shadcnspace provides an open-source collection of copy-and-paste Shadcn Componen
 [Explore all components](https://myshadcnspace.vercel.app/components)
 
 
-## Community 🤝
+## Community 
 
 Join the shadcnspace community to discuss the library, ask questions, and share your experiences:
 
-- 🐦 [Follow us on Twitter](https://x.com/ShadcnSpace)
+-  [Follow us on Twitter](https://x.com/ShadcnSpace)
 <!-- - 🎮 [Join us on Discord](https://discord.com/invite/kBHkY7DekX) -->
 
 ## License ©
 
 - Licensed under [MIT](/LICENSE)
 
-## Useful Links 🎁
+## Useful Links 
 
+- [**Website**](https://shadcnspace.com)
+- [**Documentation**](https://shadcnspace.com/docs)
+- [**Components**](https://shadcnspace.com/components)
+- [**UI Blocks**](https://shadcnspace.com/blocks)
+- [**Templates**](https://shadcnspace.com/templates)
+- [**Dashboard Layout**](http://shadcnspace.com/dashbaord)
+- [**Free Figma UI Kits**](http://shadcnspace.com/#figma)
+- Issues & Feature Requests - Use GitHub Issues
+- Roadmap - http://shadcnspace.com/roadmap
 
