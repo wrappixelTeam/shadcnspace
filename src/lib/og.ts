@@ -8,7 +8,7 @@ export const generateOgImageUrl = ({
   mode?: "light" | "dark";
 }) => {
   const url = process.env.NEXT_PUBLIC_APP_URL
-    ? `https://${process.env.NEXT_PUBLIC_APP_URL}`
+    ? `${process.env.NEXT_PUBLIC_APP_URL}`
     : "http://localhost:3000";
 
   const ogUrl = new URL(`${url}/api/og`);

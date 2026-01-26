@@ -46,7 +46,7 @@ const componentItems = components.map(
 );
 export async function GET() {
   const schema = "https://ui.shadcn.com/schema/registry.json";
-  const homepage = "https://free-shadcnspace.vercel.app";
+  const homepage = "https://shadcnspace.com";
 
   const registry = {
     $schema: schema,

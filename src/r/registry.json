@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "Shadcn Space",
-  "homepage": "https://free-shadcnspace.vercel.app",
+  "homepage": "https://shadcnspace.com",
   "items": [
     {
       "name": "hero-01",
