@@ -46,7 +46,7 @@ export default function FilterBlock({ masterCategory }: { masterCategory: string
                 <SelectContent>
                   <SelectItem value="id">ID</SelectItem>
                   <SelectItem value="newest">Newest</SelectItem>
-                  <SelectItem value="popular">Popularity</SelectItem>
+                  {/* <SelectItem value="popular">Popularity</SelectItem> */}
                 </SelectContent>
               </Select>
             </div>

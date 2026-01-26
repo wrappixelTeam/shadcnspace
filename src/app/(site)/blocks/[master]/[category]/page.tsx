@@ -8,8 +8,7 @@ import { absoluteUrl, capitalize } from "@/lib/utils";
 import { Metadata } from "next";
 import { Suspense } from "react";
 import BlockCategoryJsonLd from "@/components/blocks/category/block/block-category-json-ld";
-import { masterCategoriesArray } from "@/config/registry/blocks/masterCategories";
-import { notFound } from "next/navigation";
+
 
 const keywordsTemplate = [
     "{{category}} Shadcn Space",
@@ -88,19 +87,6 @@ const BlockCategoryPage = async (props: {
     const params = await props.params;
     const { master, category } = params;
 
-    //   const validMaster = masterCategoriesArray.some((c) => c.slug === master);
-
-    //   if (!validMaster) {
-    //     notFound();
-    //   }
-
-    //   const blocksForCategory = categorizedBlocks[category]?.filter(
-    //     (block) => block.masterCategory.name === master
-    //   );
-
-    //   if (!blocksForCategory || blocksForCategory.length === 0) {
-    //     notFound();
-    //   }
 
     return (
         <>

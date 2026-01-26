@@ -61,60 +61,62 @@ const Dropdown = ({ trigger, defaultOpen, align = "end" }: Props) => {
           align={align}
           className="w-3xs rounded-2xl data-open:slide-in-from-bottom-20! data-closed:slide-out-to-bottom-20 data-open:fade-in-0 data-closed:fade-out-0 data-closed:zoom-out-100 duration-400"
         >
-          {/* User Info */}
-          <DropdownMenuLabel className="flex items-center gap-3 px-4 py-3">
-            <div className="relative">
-              <Avatar className="size-10">
-                <AvatarImage
-                  src="https://images.shadcnspace.com/assets/profiles/user-11.jpg"
-                  alt="David McMichael"
-                />
-                <AvatarFallback>DM</AvatarFallback>
-              </Avatar>
-              <span className="ring-card absolute right-0 bottom-0 size-2 rounded-full bg-green-600 ring-2" />
-            </div>
-
-            <div className="flex flex-col">
-              <span className="text-popover-foreground text-sm font-medium">
-                David McMichael
-              </span>
-              <span className="text-muted-foreground text-sm">
-                david@shadcnspace.com
-              </span>
-            </div>
-          </DropdownMenuLabel>
-
-          <DropdownMenuSeparator />
-
-          {/* Main Links */}
           <DropdownMenuGroup>
-            {PROFILE_ITEMS.map(({ label, icon: Icon }) => (
-              <DropdownMenuItem key={label} className={itemClass}>
-                <Icon size={20} />
-                <span>{label}</span>
-              </DropdownMenuItem>
-            ))}
+            {/* User Info */}
+            <DropdownMenuLabel className="flex items-center gap-3 px-4 py-3">
+              <div className="relative">
+                <Avatar className="size-10">
+                  <AvatarImage
+                    src="https://images.shadcnspace.com/assets/profiles/user-11.jpg"
+                    alt="David McMichael"
+                  />
+                  <AvatarFallback>DM</AvatarFallback>
+                </Avatar>
+                <span className="ring-card absolute right-0 bottom-0 size-2 rounded-full bg-green-600 ring-2" />
+              </div>
+
+              <div className="flex flex-col">
+                <span className="text-popover-foreground text-sm font-medium">
+                  David McMichael
+                </span>
+                <span className="text-muted-foreground text-sm">
+                  david@shadcnspace.com
+                </span>
+              </div>
+            </DropdownMenuLabel>
+
+            <DropdownMenuSeparator />
+
+            {/* Main Links */}
+            <DropdownMenuGroup>
+              {PROFILE_ITEMS.map(({ label, icon: Icon }) => (
+                <DropdownMenuItem key={label} className={itemClass}>
+                  <Icon size={20} />
+                  <span>{label}</span>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuGroup>
+
+            <DropdownMenuSeparator />
+
+            {/* Settings */}
+            <DropdownMenuGroup>
+              {SETTINGS_ITEMS.map(({ label, icon: Icon }) => (
+                <DropdownMenuItem key={label} className={itemClass}>
+                  <Icon size={20} />
+                  <span>{label}</span>
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuGroup>
+
+            <DropdownMenuSeparator />
+
+            {/* Logout */}
+            <DropdownMenuItem variant="destructive" className={itemClass}>
+              <LOGOUT_ITEM.icon size={20} />
+              <span>{LOGOUT_ITEM.label}</span>
+            </DropdownMenuItem>
           </DropdownMenuGroup>
-
-          <DropdownMenuSeparator />
-
-          {/* Settings */}
-          <DropdownMenuGroup>
-            {SETTINGS_ITEMS.map(({ label, icon: Icon }) => (
-              <DropdownMenuItem key={label} className={itemClass}>
-                <Icon size={20} />
-                <span>{label}</span>
-              </DropdownMenuItem>
-            ))}
-          </DropdownMenuGroup>
-
-          <DropdownMenuSeparator />
-
-          {/* Logout */}
-          <DropdownMenuItem variant="destructive" className={itemClass}>
-            <LOGOUT_ITEM.icon size={20} />
-            <span>{LOGOUT_ITEM.label}</span>
-          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

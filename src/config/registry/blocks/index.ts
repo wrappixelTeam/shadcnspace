@@ -136,7 +136,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/hero-02/page')
     ),
-    created_at: '2025-12-09T17:42:25+05:30',
+    created_at: '2025-12-10T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.hero],
@@ -181,7 +181,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/hero-03/page')
     ),
-    created_at: '2025-12-09T17:42:25+05:30',
+    created_at: '2025-12-11T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.hero],
@@ -252,7 +252,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/feature-02/page.tsx')),
-    created_at: '2026-01-06T17:42:25+05:30',
+    created_at: '2026-01-07T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.feature],
@@ -283,7 +283,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/about-us-01/page')),
-    created_at: '2026-01-06T17:42:25+05:30',
+    created_at: '2026-01-08T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.aboutus],
@@ -316,7 +316,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/pricing-01/page')
     ),
-    created_at: '2026-01-06T17:42:25+05:30',
+    created_at: '2026-01-09T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.pricing],
@@ -346,7 +346,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import("@/components/shadcn-space/blocks/pricing-02/page")
     ),
-    created_at: "2026-01-07T17:42:25+05:30",
+    created_at: "2026-01-10T17:42:25+05:30",
     isPro: false,
     isDraft: false,
     categories: [categories.pricing],
@@ -378,7 +378,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/testimonial-01/page')
     ),
-    created_at: '2026-01-08T17:42:25+05:30',
+    created_at: '2026-01-11T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.testimonials],
@@ -422,7 +422,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "800px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/testimonial-02/page')),
-    created_at: '2026-01-08T18:53:10+05:30',
+    created_at: '2026-01-12T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.testimonials],
@@ -454,7 +454,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/portfolio-01/page')
     ),
-    created_at: '2026-01-09T17:42:25+05:30',
+    created_at: '2026-01-13T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.portfolio],
@@ -484,7 +484,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import("@/components/shadcn-space/blocks/team-01/page.tsx")
     ),
-    created_at: "2026-01-06T17:42:25+05:30",
+    created_at: "2026-01-14T17:42:25+05:30",
     isPro: false,
     isDraft: false,
     categories: [categories.team],
@@ -514,7 +514,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import("@/components/shadcn-space/blocks/team-02/page.tsx")
     ),
-    created_at: "2026-01-06T17:42:25+05:30",
+    created_at: "2026-01-16T17:42:25+05:30",
     isPro: false,
     isDraft: false,
     categories: [categories.team],
@@ -540,7 +540,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "550px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/cta-01/page')),
-    created_at: '2026-01-09T18:53:10+05:30',
+    created_at: '2026-01-17T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.cta],
@@ -571,7 +571,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "620px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/cta-02/page')),
-    created_at: '2026-01-09T18:53:10+05:30',
+    created_at: '2026-01-18T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.cta],
@@ -603,7 +603,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/services-01/page')
     ),
-    created_at: '2026-01-09T17:42:25+05:30',
+    created_at: '2026-01-19T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.services],
@@ -629,7 +629,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "950px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/services-02/page')),
-    created_at: '2026-01-10T18:53:10+05:30',
+    created_at: '2026-01-20T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.services],
@@ -655,7 +655,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "900px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/faq-01/page')),
-    created_at: '2026-01-09T18:53:10+05:30',
+    created_at: '2026-01-22T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.Faqs],
@@ -681,7 +681,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "578px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/newsletter-01/page')),
-    created_at: '2026-01-10T18:53:10+05:30',
+    created_at: '2026-01-23T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.newsletter],
@@ -713,7 +713,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/blog-01/page')
     ),
-    created_at: '2026-01-10T17:42:25+05:30',
+    created_at: '2025-12-07T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.blog],
@@ -763,7 +763,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/contact-01/page.tsx')),
-    created_at: '2026-01-09T17:42:25+05:30',
+    created_at: '2025-12-08T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.contact],
@@ -793,7 +793,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import("@/components/shadcn-space/blocks/navbar-01/page.tsx")
     ),
-    created_at: "2026-01-06T17:42:25+05:30",
+    created_at: "2025-12-09T17:42:25+05:30",
     isPro: false,
     isDraft: false,
     categories: [categories.navbar],
@@ -829,7 +829,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import('@/components/shadcn-space/blocks/footer-01/page')
     ),
-    created_at: '2026-01-10T17:42:25+05:30',
+    created_at: '2025-12-10T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.footer],
@@ -855,7 +855,7 @@ export const blocks: RegistryBlock[] = [
     }],
     iframeHeight: "656px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/footer-02/page')),
-    created_at: '2026-01-10T18:53:10+05:30',
+    created_at: '2025-12-11T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.footer],
@@ -890,7 +890,7 @@ export const blocks: RegistryBlock[] = [
     component: React.lazy(
       () => import("@/components/shadcn-space/blocks/sidebar-01/page")
     ),
-    created_at: "2026-01-15T18:53:10+05:30",
+    created_at: "2025-12-12T18:53:10+05:30",
     isPro: false,
     isDraft: false,
     categories: [categories.sidebars],
@@ -920,7 +920,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/statistics-01/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-13T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.statistics],
@@ -950,7 +950,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/statistics-02/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-14T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.statistics],
@@ -978,7 +978,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/chart-01/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-15T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.charts],
@@ -1006,7 +1006,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/chart-02/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-16T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.charts],
@@ -1033,7 +1033,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/chart-03/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-17T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.charts],
@@ -1061,7 +1061,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/chart-04/page')
     ),
-    created_at: '2026-01-12T17:42:25+05:30',
+    created_at: '2025-12-18T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.charts],
@@ -1097,7 +1097,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/bento-grid-01/page')),
-    created_at: '2026-01-20T17:42:25+05:30',
+    created_at: '2025-12-19T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.bentogrid],
@@ -1159,7 +1159,7 @@ export const blocks: RegistryBlock[] = [
     ],
     iframeHeight: "656px",
     component: React.lazy(() => import('@/components/shadcn-space/blocks/dashboard-shell-01/page')),
-    created_at: '2026-01-10T18:53:10+05:30',
+    created_at: '2025-12-20T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.dashboardShell],
@@ -1193,7 +1193,7 @@ export const blocks: RegistryBlock[] = [
 
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/dialog-01/page')),
-    created_at: '2026-01-15T17:42:25+05:30',
+    created_at: '2025-12-21T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.dialog],
@@ -1223,7 +1223,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/dropdown-01/page')),
-    created_at: '2026-01-15T17:42:25+05:30',
+    created_at: '2025-12-22T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.dropdown],
@@ -1254,7 +1254,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/dropdown-02/page')),
-    created_at: '2026-01-15T17:42:25+05:30',
+    created_at: '2025-12-23T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.dropdown],
@@ -1285,7 +1285,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/forgot-password-01/page')),
-    created_at: '2026-01-15T17:42:25+05:30',
+    created_at: '2025-12-24T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.forgotPassword],
@@ -1319,7 +1319,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/forms-01/page')),
-    created_at: '2026-01-16T17:42:25+05:30',
+    created_at: '2025-12-25T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.forms],
@@ -1345,7 +1345,7 @@ export const blocks: RegistryBlock[] = [
     },
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/gallery-01/page')),
-    created_at: '2026-01-20T17:42:25+05:30',
+    created_at: '2025-12-26T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.gallery],
@@ -1379,7 +1379,7 @@ export const blocks: RegistryBlock[] = [
 
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/login-01/page')),
-    created_at: '2026-01-13T17:42:25+05:30',
+    created_at: '2025-12-27T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.login],
@@ -1410,7 +1410,7 @@ export const blocks: RegistryBlock[] = [
     }
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/logo-cloud-01/page')),
-    created_at: '2026-01-20T17:42:25+05:30',
+    created_at: '2025-12-28T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.logoCloud],
@@ -1443,7 +1443,7 @@ export const blocks: RegistryBlock[] = [
 
     ],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/register-01/page')),
-    created_at: '2026-01-15T17:42:25+05:30',
+    created_at: '2025-12-29T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.register],
@@ -1497,7 +1497,7 @@ export const blocks: RegistryBlock[] = [
       target: 'components/shadcn-space/blocks/topbar-01/dropdown-profile.tsx',
     }],
     component: React.lazy(() => import('@/components/shadcn-space/blocks/topbar-01/page')),
-    created_at: '2025-12-17T18:53:10+05:30',
+    created_at: '2025-12-30T18:53:10+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.topbars],
@@ -1616,7 +1616,7 @@ export const blocks: RegistryBlock[] = [
       () =>
         import('@/components/shadcn-space/blocks/widget-02/page')
     ),
-    created_at: '2026-01-13T17:42:25+05:30',
+    created_at: '2026-01-14T17:42:25+05:30',
     isPro: false,
     isDraft: false,
     categories: [categories.widgets],

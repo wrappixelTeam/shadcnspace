@@ -2,10 +2,11 @@
 
 import { categorizedBlocks } from "@/components/blocks/utils";
 import { useParams, useSearchParams } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ResultsNotFound } from "../results-not-found";
 import { Block } from "../../code-viewer/block";
 import { blocks as registryBlocks } from "@/config/registry/blocks";
+import { useWebContext } from "@/providers/website-provider";
 
 const INITIAL_BLOCK_COUNT = 5;
 const BLOCKS_PER_LOAD = 5;
@@ -13,13 +14,48 @@ const BLOCKS_PER_LOAD = 5;
 const BlockPreviewList = () => {
   const searchParams = useSearchParams();
   const q = searchParams.get("q");
-  const { category } = useParams();
-  const blocks = category
-    ? categorizedBlocks[category as string]
-    : registryBlocks;
+  const { category, master } = useParams();
+  const { filterBySort } = useWebContext();
   const query = q ?? "";
 
-  const filteredBlocks = blocks.filter((block) => {
+  /* ---------------- Base blocks (category) ---------------- */
+  const baseBlocks = useMemo(() => {
+    const rawBlocks = category
+      ? categorizedBlocks[category as string] || []
+      : registryBlocks;
+
+    const source = rawBlocks
+      .filter((block) => {
+        if (!master) return true;
+        return block.masterCategory.name === master;
+      });
+
+    return source || [];
+  }, [category, master]);
+
+  /* ---------------- Sorting logic ---------------- */
+  const sortedBlocks = useMemo(() => {
+    let result = [...baseBlocks];
+
+    result.sort((a, b) => {
+
+
+      // 2. Secondary Sort: Newest or Popular
+      if (filterBySort === "newest") {
+        return (
+          new Date(b.created_at!).getTime() - new Date(a.created_at!).getTime()
+        );
+      }
+
+
+      return 0;
+    });
+
+
+    return result;
+  }, [baseBlocks, filterBySort]);
+
+  const filteredBlocks = sortedBlocks.filter((block) => {
     const blockTitle = block.title.toLowerCase();
 
     return (

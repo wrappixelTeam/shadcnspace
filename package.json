@@ -10,7 +10,7 @@
     "lint": "next lint",
     "generate-screenshots": "node --loader ts-node/esm src/lib/generate-block-screenshots.ts",
     "registry:merge": "node --loader ts-node/esm src/lib/scripts/updateRegistry.ts",
-    "registry:build": "npm run registry:merge && shadcn build --output src/r"
+    "registry:build": "npm run registry:merge && shadcn build"
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",

@@ -89,47 +89,49 @@ const Dropdown = ({ trigger, defaultOpen, align = "end" }: Props) => {
           align={align}
           className="p-0 w-sm rounded-2xl data-open:slide-in-from-top-20! data-closed:slide-out-to-top-20 data-open:fade-in-0 data-closed:fade-out-0 data-closed:zoom-out-100 duration-400"
         >
-          {/* title */}
-          <DropdownMenuLabel className="flex items-center justify-between p-4">
-            <p className="text-base font-medium text-popover-foreground">
-              Notifications
-            </p>
-            <Badge className="font-normal leading-0">5 New</Badge>
-          </DropdownMenuLabel>
-
-          {/* Notifications */}
           <DropdownMenuGroup>
-            {PROFILE_ITEMS.map(
-              ({ bgColor, textColor, icon: Icon, title, desc, time }) => (
-                <DropdownMenuItem
-                  key={title}
-                  className={
-                    "mx-1.5 my-1 p-2 flex items-center justify-between cursor-pointer"
-                  }
-                >
-                  <div className="flex items-center gap-3">
-                    <div className={cn("p-2.5 rounded-xl", bgColor, textColor)}>
-                      <Icon size={20} className="size-5" />
-                    </div>
-                    <div>
-                      <p className="text-sm font-medium text-popover-foreground">
-                        {title}
-                      </p>
-                      <p className="max-w-52 truncate text-sm text-muted-foreground">
-                        {desc}
-                      </p>
-                    </div>
-                  </div>
-                  <p className="text-xs text-muted-foreground">{time}</p>
-                </DropdownMenuItem>
-              )
-            )}
-          </DropdownMenuGroup>
+            {/* title */}
+            <DropdownMenuLabel className="flex items-center justify-between p-4">
+              <p className="text-base font-medium text-popover-foreground">
+                Notifications
+              </p>
+              <Badge className="font-normal leading-0">5 New</Badge>
+            </DropdownMenuLabel>
 
-          {/* button */}
-          <div className="mx-1.5 my-1 p-2">
-            <Button className="rounded-xl w-full">See All Notifications</Button>
-          </div>
+            {/* Notifications */}
+            <DropdownMenuGroup>
+              {PROFILE_ITEMS.map(
+                ({ bgColor, textColor, icon: Icon, title, desc, time }) => (
+                  <DropdownMenuItem
+                    key={title}
+                    className={
+                      "mx-1.5 my-1 p-2 flex items-center justify-between cursor-pointer"
+                    }
+                  >
+                    <div className="flex items-center gap-3">
+                      <div className={cn("p-2.5 rounded-xl", bgColor, textColor)}>
+                        <Icon size={20} className="size-5" />
+                      </div>
+                      <div>
+                        <p className="text-sm font-medium text-popover-foreground">
+                          {title}
+                        </p>
+                        <p className="max-w-52 truncate text-sm text-muted-foreground">
+                          {desc}
+                        </p>
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground">{time}</p>
+                  </DropdownMenuItem>
+                )
+              )}
+            </DropdownMenuGroup>
+
+            {/* button */}
+            <div className="mx-1.5 my-1 p-2">
+              <Button className="rounded-xl w-full">See All Notifications</Button>
+            </div>
+          </DropdownMenuGroup>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
