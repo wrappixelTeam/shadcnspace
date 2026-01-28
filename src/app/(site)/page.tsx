@@ -3,9 +3,7 @@ import { absoluteUrl } from "@/lib/utils";
 import Features from "@/components/home/features/Features";
 import Achievements from "@/components/home/achievements/Achievements";
 import { Brands } from "@/components/home/brands/Brands";
-import Template from "@/components/home/templates";
-import Blocks from "@/components/home/blocks";
-
+import UiEntities from "@/components/home/ui-entities";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -20,8 +18,7 @@ export default function Home() {
       <div className="relative">
         <main>
           <Hero />
-          <Blocks />
-          <Template />
+          <UiEntities />
           <section className="py-10">
             <div className="container">
               <div className="flex flex-col gap-14">

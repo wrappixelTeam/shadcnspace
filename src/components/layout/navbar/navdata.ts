@@ -9,7 +9,7 @@ export const navData = [
     },
     {
         label: "Templates",
-        href: "/templates"
+        href: "https://shadcnspace.com/templates"
     },
     {
         label: "Resources",
@@ -17,12 +17,12 @@ export const navData = [
         items: [
             {
                 label: "Blogs",
-                href: "https://www.shadcnspace.com/blogs",
+                href: "https://shadcnspace.com/blogs",
                 icon: "solar:notebook-minimalistic-linear",
             },
             {
                 label: "Docs",
-                href: "https://www.shadcnspace.com/docs/getting-started/introduction",
+                href: "https://shadcnspace.com/docs/getting-started/introduction",
                 icon: "solar:notebook-linear",
             },
             // {

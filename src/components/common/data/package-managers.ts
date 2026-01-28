@@ -24,7 +24,7 @@ export const packageManagers: Record<PackageManager, PackageManagerConfig> = {
   },
   yarn: {
     name: "Yarn",
-    command: (slug: string) => `yarn shadcn@latest add ${slug}`,
+    command: (slug: string) => `yarn dlx shadcn@latest add ${slug}`,
     logo: YarnLogo,
     displayCommand: (slug: string) => `yarn shadcn@latest add ${slug}`,
   },
