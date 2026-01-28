@@ -26,7 +26,7 @@ const footerSections = [
     title: "Templates",
     links: TemplatesData.map(({ slug }) => ({
       title: slug,
-      href: `/templates/${slug.toLowerCase()}`,
+      href: `https://shadcnspace.com/templates/${slug.toLowerCase()}`,
     })),
   },
   {
@@ -47,7 +47,7 @@ const footerSections = [
     links: [
       {
         title: "Documentation",
-        href: "https://www.shadcnspace.com/docs/getting-started/introduction",
+        href: "https://shadcnspace.com/docs/getting-started/introduction",
       },
     ],
   },

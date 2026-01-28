@@ -4,8 +4,9 @@ export const getInstallationCommand = (
 ) => {
   switch (packageManager) {
     case "npm":
-    case "yarn":
       return `npx shadcn@latest add ${registryUrl}`;
+    case "yarn":
+      return `yarn dlx shadcn@latest add ${registryUrl}`;
     case "pnpm":
       return `pnpm dlx shadcn@latest add ${registryUrl}`;
     case "bun":
