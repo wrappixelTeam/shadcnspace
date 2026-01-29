@@ -39,34 +39,9 @@ const ComponentBlock: FC<BlockProps> = async ({
   height,
 }) => {
   const flatPath = `src/components/shadcn-space/${category.name}/${name}.tsx`;
-  // const nestedPath = `src/components/shadcn-space/${category.name}/${name}/${category.name}.tsx`;
-
-  // let src = flatPath;
-  // let DynamicComponent = BlockNotFound;
-
-  // // Check if nested path exists
-  // if (fs.existsSync(path.join(process.cwd(), nestedPath))) {
-  //   src = nestedPath;
-  //   try {
-  //     const mod = await import(`@/components/shadcn-space/${category.name}/${name}/${category.name}.tsx`);
-  //     DynamicComponent = mod.default || BlockNotFound;
-  //   } catch (error) {
-  //     console.error(`Failed to load nested component: ${nestedPath}`, error);
-  //   }
-  // } else {
-  //   // Fallback to flat path
-  //   src = flatPath;
-  //   try {
-  //     const mod = await import(`@/components/shadcn-space/${category.name}/${name}.tsx`);
-  //     DynamicComponent = mod.default || BlockNotFound;
-  //   } catch (error) {
-  //     // console.error(`Failed to load flat component: ${flatPath}`, error);
-  //   }
-  // }
 
   const code = await getFileContent(flatPath);
-  const protocol = process.env.NODE_ENV === "development" ? "http" : "https";
-  const registryUrl = `${protocol}://${config.appUrl}/r/${name}.json`;
+  const registryUrl = `@shadcn-space/${name}`;
   const DdynamicComponent = dynamic(() =>
     import(`@/components/shadcn-space/${category.name}/${name}.tsx`).catch(
       () => BlockNotFound,

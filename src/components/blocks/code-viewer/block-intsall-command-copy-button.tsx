@@ -2,7 +2,7 @@
 
 import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard";
 import { absoluteUrl } from "@/lib/utils";
-import { ChevronDown, Check, Terminal } from "lucide-react";
+import { ChevronDown, Check, Terminal, ArrowBigRightIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -16,6 +16,7 @@ import {
 } from "@/components/common/data/package-managers";
 import { usePackageManager } from "@/providers/package-manager-provider";
 import { ButtonGroup } from "@/components/ui/button-group";
+import Link from "next/link";
 
 export const BlockInstallCommandCopyButton = ({ block }: { block: string }) => {
   const { isCopied, copyToClipboard } = useCopyToClipboard();
@@ -25,7 +26,7 @@ export const BlockInstallCommandCopyButton = ({ block }: { block: string }) => {
   const currentPackageManager = packageManagers[selectedPackageManager];
 
   const copyInstallCommand = () => {
-    const blockUrl = absoluteUrl(`/r/${block}.json`);
+    const blockUrl = `@shadcn-space/${block}`;
     const installCommand = currentPackageManager.command(blockUrl);
 
     copyToClipboard(installCommand);
@@ -61,7 +62,7 @@ export const BlockInstallCommandCopyButton = ({ block }: { block: string }) => {
             <span className="sr-only">Select package manager</span>
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent align="end" className="min-w-[8rem]">
+        <DropdownMenuContent align="end" className="min-w-56">
           {Object.entries(packageManagers).map(([key, pm]) => {
             return (
               <DropdownMenuItem
@@ -77,6 +78,12 @@ export const BlockInstallCommandCopyButton = ({ block }: { block: string }) => {
               </DropdownMenuItem>
             );
           })}
+            <DropdownMenuItem>
+                <Link href="https://shadcnspace.com/docs/getting-started/how-to-use-shadcn-cli#shadcn-cli-versions" className={'flex items-center gap-2'} >
+                <ArrowBigRightIcon/>
+                View Cli Documentation
+                </Link>
+              </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </ButtonGroup>
