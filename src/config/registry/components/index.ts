@@ -1840,6 +1840,8 @@ export const components = [
       },
     ],
     category: categories["tooltip"],
+    isNew:true,
+
   },
   {
     name: "animated-text-01",
